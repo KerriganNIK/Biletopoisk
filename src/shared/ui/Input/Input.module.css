@@ -1,0 +1,16 @@
+.Input {
+
+}
+
+.default {
+    border-radius: 8px;
+    border: 1px solid #E1E3E6;
+    padding: 10px 16px;
+    width: 360px;
+    outline: none;
+    color: #999FA6;
+}
+
+.default:focus {
+    color: #1B1F23;
+}

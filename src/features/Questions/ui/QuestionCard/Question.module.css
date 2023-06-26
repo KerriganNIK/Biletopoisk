@@ -1,0 +1,20 @@
+.QuestionCard {
+    border: none;
+    border-radius: 8px;
+    padding: 24px;
+    background-color: white;
+    margin: 16px 32px 1px;
+    cursor: pointer;
+}
+
+.nameQuestion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.answer {
+    font-size: 16px;
+}

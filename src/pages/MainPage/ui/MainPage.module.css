@@ -1,0 +1,21 @@
+.MainPage {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.Films {
+}
+
+
+.SideBar {
+    flex: 0 0 auto;
+    height: 1000px;
+    background-color: white;
+    padding: 24px;
+    margin: 32px;
+    border-radius: 8px;
+    overflow-y: auto;
+    position: sticky;
+    top: 10px;
+}

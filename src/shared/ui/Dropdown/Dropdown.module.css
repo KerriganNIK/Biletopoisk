@@ -1,0 +1,41 @@
+.Dropdown {
+    width: 360px;
+    z-index: 9999;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #E1E3E6;
+    padding: 10px 16px;
+    color: #999FA6;
+    background-color: white;
+    cursor: pointer;
+    transition: border-color 0.2s ease;
+    width: 360px;
+}
+
+.header:focus {
+    outline: none;
+    border-color: orange;
+}
+
+.content {
+    background-color: white;
+    border: 1px solid #E1E3E6;
+    border-radius: 8px;
+    margin-top: 4px;
+}
+
+.content li {
+    color: #1B1F23;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.content ul {
+    padding: 20px;
+    list-style: none;
+}

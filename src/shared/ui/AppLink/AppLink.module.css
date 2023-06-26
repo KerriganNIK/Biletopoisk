@@ -1,0 +1,16 @@
+.AppLink {
+
+}
+
+.default {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.logo {
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}

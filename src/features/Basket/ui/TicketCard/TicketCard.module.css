@@ -1,0 +1,51 @@
+.TicketCard {
+    display: flex;
+    border-radius: 8px;
+    background-color: white;
+    padding: 24px;
+    margin: 24px;
+    cursor: pointer;
+}
+
+.Image {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.Image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.Details {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.Title {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Genre {
+    font-size: 16px;
+    font-style: italic;
+    color: #1B1F23;
+    margin-top: 8px;
+    font-weight: 300;
+}
+
+.activeButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.count {
+    margin-right: 24px;
+}

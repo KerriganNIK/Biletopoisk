@@ -1,0 +1,58 @@
+.Button {
+
+}
+
+.fill {
+  border-radius: 8px;
+  background-color: #FF5500;
+  width: 51px;
+  height: 40px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.fill:hover {
+  background-color: #E94E00;
+}
+
+.decrement {
+  border-radius: 4px;
+  background-color: #FFA375;
+  width: 20px;
+  height: 20px;
+  color: white;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+}
+
+.increment {
+  border-radius: 4px;
+  background-color: #FF5500;
+  width: 20px;
+  height: 20px;
+  color: white;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+}
+
+.clear {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.cancel {
+  border: 1px solid #FF5500;
+  background: none;
+  cursor: pointer;
+  width: 51px;
+  height: 40px;
+  border-radius: 8px;
+}

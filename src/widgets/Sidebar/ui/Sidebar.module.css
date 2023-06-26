@@ -1,0 +1,21 @@
+.Sidebar {
+
+}
+
+.Sidebar h1 {
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.Sidebar p {
+    font-size: 14px;
+}
+
+.genre {
+    padding-top: 16px;
+}
+
+.cinema {
+    padding-top: 16px;
+}

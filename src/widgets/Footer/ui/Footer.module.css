@@ -1,0 +1,23 @@
+.Footer {
+    width: 100%;
+    height: 86px;
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding-bottom: 24px;
+    padding-top: 24px;
+}
+
+.footer {
+    padding-right: 32px;
+}
+
+.questions {
+    padding-left: 32px;
+}
+
+.questions h1 {
+    font-size: 20px;
+}

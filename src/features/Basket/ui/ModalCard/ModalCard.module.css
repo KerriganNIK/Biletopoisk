@@ -1,0 +1,15 @@
+.headerModal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.headerModal h1 {
+    font-size: 20px;
+}
+
+.buttonOk {
+    margin-right: 8px;
+    margin-top: 24px;
+}

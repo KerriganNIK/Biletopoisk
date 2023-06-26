@@ -1,0 +1,44 @@
+.FilmDescription {
+    display: flex;
+    border-radius: 8px;
+    background-color: white;
+    padding: 24px;
+    margin: 32px;
+}
+
+.Image {
+    margin-right: 32px;
+}
+
+.Image img {
+    border-radius: 8px;
+}
+
+.Details {
+    display: flex;
+    flex-direction: column;
+}
+
+.Title {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.Genre li{
+    list-style: none;
+    padding-bottom: 16px;
+}
+
+.Genre span {
+    font-weight: bold;
+}
+
+.Genre {
+    padding-bottom: 32px;
+    padding-top: 24px;
+}
+
+.Description p {
+    padding-bottom: 16px;
+    font-weight: bold;
+}
