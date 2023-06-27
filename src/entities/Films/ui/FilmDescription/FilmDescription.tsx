@@ -2,6 +2,7 @@ import {classNames} from "@/shared/lib/classNames/classNames";
 import classes from "./FilmDescription.module.css";
 import {Film} from "@/entities/Films/model/type/film";
 import {TRANSLATIONS} from "@/shared/config/translations/translations";
+import {Counter} from "@/entities/Counter";
 
 interface FilmDescriptionProps {
     className?: string;
@@ -27,6 +28,7 @@ export const FilmDescription = ({className, data}: FilmDescriptionProps) => {
             <div className={classes.Details}>
                 <div className={classes.Title}>
                     {data.title}
+                    <Counter movie={data}/>
                 </div>
                 <div className={classes.Genre}>
                     <ul>

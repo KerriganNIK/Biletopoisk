@@ -1,0 +1,12 @@
+.AboutCard {
+    border: none;
+    border-radius: 8px;
+    padding: 24px;
+    background-color: white;
+    margin: 16px 32px 1px;
+    cursor: pointer;
+}
+
+.AboutCard h1 {
+    font-size: 32px;
+}
